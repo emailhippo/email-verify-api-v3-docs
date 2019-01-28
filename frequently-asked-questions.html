@@ -1,0 +1,415 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Frequently asked questions &mdash; Email Address Verification API 3.0.13 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Glossary" href="glossary.html" />
+    <link rel="prev" title="Change log" href="change-log.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Email Address Verification API
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick start</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="data-privacy.html">Compliance</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="editions.html">About editions</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="integration-guide.html">Schema</a></li>
+<li class="toctree-l1"><a class="reference internal" href="integration-guide.html#return-protocols">Return protocols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="integration-guide.html#firewall-rules">Firewall rules</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="features.html">Features</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="usage-report.html">Usage report</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="reliability.html">Service reliability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reliability.html#real-time-monitoring">Real time monitoring</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="concurrency.html">Concurrency</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="data-dictionary.html">Data dictionary for API v3</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="client-libraries.html">Client libraries</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="technical-spec.html">Technical specification</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="change-log.html">Change log</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Frequently asked questions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#can-i-trust-you-with-my-data">Can I trust you with my data?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-can-i-get-a-key">How can I get a key?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-do-i-call-the-api">How do I call the API?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-comes-back-from-the-api">What comes back from the API?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-reliable-is-the-api">How reliable is the API?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#does-the-system-get-slower-when-it-s-busy">Does the system get slower when it’s busy?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#do-you-cache-results">Do you cache results?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#can-i-get-my-usage-in-real-time">Can I get my usage in real-time?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#can-it-do-hotmail">Can it do Hotmail?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#can-it-find-spam-traps">Can it find spam traps?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-does-it-work">How does it work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#can-i-get-blacklisted-using-this-api">Can I get blacklisted using this API?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#will-anyone-know-that-i-am-verifying-their-email-address">Will anyone know that I am verifying their email address?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#your-service-says-an-address-is-ok-and-i-know-it-s-bad-or-vice-versa">Your service says an address is OK and I know it’s Bad (or vice versa)?</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Email Address Verification API</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Frequently asked questions</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <!-- User defined Bitbucket URL -->
+              <a href="https://bitbucket.org/emailhippo/emh-rtapiv3-docs/src/master/docs/frequently-asked-questions.rst" class="fa fa-bitbucket"> Edit on Bitbucket</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="frequently-asked-questions">
+<h1>Frequently asked questions<a class="headerlink" href="#frequently-asked-questions" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="can-i-trust-you-with-my-data">
+<h2>Can I trust you with my data?<a class="headerlink" href="#can-i-trust-you-with-my-data" title="Permalink to this headline">¶</a></h2>
+<p>Great question. See <a class="reference internal" href="data-privacy.html"><span class="doc">Compliance</span></a> for more information.</p>
+</div>
+<div class="section" id="how-can-i-get-a-key">
+<h2>How can I get a key?<a class="headerlink" href="#how-can-i-get-a-key" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://register.emailhippo.com/signup">Click here to signup</a>.</p>
+</div>
+<div class="section" id="how-do-i-call-the-api">
+<h2>How do I call the API?<a class="headerlink" href="#how-do-i-call-the-api" title="Permalink to this headline">¶</a></h2>
+<p>For a <a class="reference internal" href="glossary.html#term-json"><span class="xref std std-term">JSON</span></a> response, make a simple GET request to the endpoint. For example, to query email address <em>john.doe&#64;gmail.com</em> with license key <em>ABCD1234</em> call:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">api</span><span class="o">.</span><span class="n">hippoapi</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">v3</span><span class="o">/</span><span class="n">more</span><span class="o">/</span><span class="n">json</span><span class="o">/</span><span class="n">ABCD1234</span><span class="o">/</span><span class="n">john</span><span class="o">.</span><span class="n">doe</span><span class="nd">@gmail</span><span class="o">.</span><span class="n">com</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Several response formats (other than <a class="reference internal" href="glossary.html#term-json"><span class="xref std std-term">JSON</span></a>) are available. For a detailed explanation of the responses available, see <a class="reference internal" href="integration-guide.html"><span class="doc">Schema</span></a>.</p>
+</div>
+</div>
+<div class="section" id="what-comes-back-from-the-api">
+<h2>What comes back from the API?<a class="headerlink" href="#what-comes-back-from-the-api" title="Permalink to this headline">¶</a></h2>
+<p>Various text or binary response formats.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">For a detailed explanation of the responses available, see <a class="reference internal" href="integration-guide.html"><span class="doc">Schema</span></a>.</p>
+</div>
+</div>
+<div class="section" id="how-reliable-is-the-api">
+<h2>How reliable is the API?<a class="headerlink" href="#how-reliable-is-the-api" title="Permalink to this headline">¶</a></h2>
+<p>&gt; 99.9% average availability with a defined <a class="reference internal" href="glossary.html#term-sla"><span class="xref std std-term">SLA</span></a>. See <a class="reference internal" href="reliability.html"><span class="doc">Service reliability</span></a></p>
+</div>
+<div class="section" id="does-the-system-get-slower-when-it-s-busy">
+<h2>Does the system get slower when it’s busy?<a class="headerlink" href="#does-the-system-get-slower-when-it-s-busy" title="Permalink to this headline">¶</a></h2>
+<p>No. All infrastructure is hosted in cloud based platforms with automatic scaling enabled. Automatic scaling kicks in at busy times to provide more hardware resources to meet demand.</p>
+</div>
+<div class="section" id="do-you-cache-results">
+<h2>Do you cache results?<a class="headerlink" href="#do-you-cache-results" title="Permalink to this headline">¶</a></h2>
+<p>To deliver the speed and reliability demanded by our customers, verification results are cached as follows:</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Level 1 cache</strong>: <a class="reference external" href="https://www.cloudflare.com/">CloudFlare</a> based. Cache expiration 2 hours.</li>
+<li><strong>Level 2 cache</strong>: <a class="reference external" href="https://azure.microsoft.com">Microsoft Azure</a> based. Cache expiration 30 days.</li>
+</ul>
+</div></blockquote>
+<p>No personally identifiable information is stored in our cache infrastructure.</p>
+</div>
+<div class="section" id="can-i-get-my-usage-in-real-time">
+<h2>Can I get my usage in real-time?<a class="headerlink" href="#can-i-get-my-usage-in-real-time" title="Permalink to this headline">¶</a></h2>
+<p>Yes. Please see <a class="reference internal" href="usage-report.html"><span class="doc">Usage report</span></a> for more information.</p>
+</div>
+<div class="section" id="can-it-do-hotmail">
+<h2>Can it do Hotmail?<a class="headerlink" href="#can-it-do-hotmail" title="Permalink to this headline">¶</a></h2>
+<p>Yes.</p>
+</div>
+<div class="section" id="can-it-find-spam-traps">
+<h2>Can it find spam traps?<a class="headerlink" href="#can-it-find-spam-traps" title="Permalink to this headline">¶</a></h2>
+<p>Partially.</p>
+<p>A <a class="reference internal" href="glossary.html#term-spam-trap"><span class="xref std std-term">Spam Trap</span></a> is a moving target. In theory (and indeed in practice) anyone can setup a <a class="reference internal" href="glossary.html#term-block-list"><span class="xref std std-term">Block List</span></a> and start putting spam traps into the wild.</p>
+<p><a class="reference external" href="https://www.emailhippo.com">Email Hippo</a> has <a class="reference internal" href="glossary.html#term-spam-trap"><span class="xref std std-term">Spam Trap</span></a> detection capabilities that covers several of the well known block lists. Whilst it is not possible to deliver 100% coverage of all spam traps from all block lists, <a class="reference external" href="https://www.emailhippo.com">Email Hippo</a> provides the best <a class="reference internal" href="glossary.html#term-spam-trap"><span class="xref std std-term">Spam Trap</span></a> detection capabilities available.</p>
+</div>
+<div class="section" id="how-does-it-work">
+<h2>How does it work?<a class="headerlink" href="#how-does-it-work" title="Permalink to this headline">¶</a></h2>
+<p>At a basic conceptual level, the process of verifying email addresses is very simple. Google for “Send email using telnet” for a quick and general overview of how it’s done. To verify an email address without sending an email, simply go as far as the “RCPT TO” stage and parse the response code. That’s the easy bit and can be accomplished in just a couple of dozen lines of a PHP script!</p>
+<p>The hard bit is dealing with mail services that are intrinsically configured to work against the process of email verification or any similar SMTP based activity. The reason that any email / <a class="reference internal" href="glossary.html#term-smtp"><span class="xref std std-term">SMTP</span></a> process is difficult from a client perspective is that mail services need to protect themselves from an ever increasing landscape of abuse including spam and <a class="reference internal" href="glossary.html#term-ddos"><span class="xref std std-term">DDoS</span></a> attacks.</p>
+<p><a class="reference external" href="https://www.emailhippo.com">Email Hippo</a>’s strength in dealing with the “hard bit” of email verification comes from years of experience in doing email verification together with our complete ownership of our <a class="reference internal" href="glossary.html#term-smtp"><span class="xref std std-term">SMTP</span></a> verification software stack together with an extensive cloud based infrastructure. That’s why <a class="reference external" href="https://www.emailhippo.com">Email Hippo</a> can do the “hard bits” best and offer outstanding coverage on the more difficult domains such as Yahoo and Hotmail.</p>
+</div>
+<div class="section" id="can-i-get-blacklisted-using-this-api">
+<h2>Can I get blacklisted using this API?<a class="headerlink" href="#can-i-get-blacklisted-using-this-api" title="Permalink to this headline">¶</a></h2>
+<p>No. It’s <a class="reference external" href="https://www.emailhippo.com">Email Hippo</a> infrastructure that does the work.</p>
+</div>
+<div class="section" id="will-anyone-know-that-i-am-verifying-their-email-address">
+<h2>Will anyone know that I am verifying their email address?<a class="headerlink" href="#will-anyone-know-that-i-am-verifying-their-email-address" title="Permalink to this headline">¶</a></h2>
+<p>No. It’s <a class="reference external" href="https://www.emailhippo.com">Email Hippo</a> infrastructure that does the work.</p>
+</div>
+<div class="section" id="your-service-says-an-address-is-ok-and-i-know-it-s-bad-or-vice-versa">
+<h2>Your service says an address is OK and I know it’s Bad (or vice versa)?<a class="headerlink" href="#your-service-says-an-address-is-ok-and-i-know-it-s-bad-or-vice-versa" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.emailhippo.com">Email Hippo</a> queries mail servers in real time. Mail servers respond with one of two possible answers for a given email address:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Yes, the email address exists - SMTP code 2xx</li>
+<li>No, the email address does not exist - SMTP code 5xx</li>
+</ul>
+</div></blockquote>
+<p><a class="reference external" href="https://www.emailhippo.com">Email Hippo</a> uses the above response codes to determine if an email address is valid or not and reports this back to you.</p>
+<p>This method of determining email address validity works in &gt;99% cases. However, nothing is guaranteed. In a small number of cases it is possible for a mail server to report one thing on email verification and do something different on trying to deliver an email to the email address verified.</p>
+<p>At the time of verification the mail server would have reported Yes/No, however this may have been due to an error within the target mail server and the opposite may have been true. This is rare, but it can happen. If this was a temporary error within the target mail server, please note that this result may be remembered by our system for a few hours.</p>
+<p>For another example, say we take an email address of “<a class="reference external" href="mailto:this&#46;seems&#46;to&#46;verify&#37;&#52;&#48;hotmail&#46;com">this<span>&#46;</span>seems<span>&#46;</span>to<span>&#46;</span>verify<span>&#64;</span>hotmail<span>&#46;</span>com</a>” to send to. We are sending from a fictitious email address “<a class="reference external" href="mailto:my&#46;sending&#46;account&#37;&#52;&#48;gmail&#46;com">my<span>&#46;</span>sending<span>&#46;</span>account<span>&#64;</span>gmail<span>&#46;</span>com</a>”.</p>
+<p>“<a class="reference external" href="mailto:this&#46;seems&#46;to&#46;verify&#37;&#52;&#48;hotmail&#46;com">this<span>&#46;</span>seems<span>&#46;</span>to<span>&#46;</span>verify<span>&#64;</span>hotmail<span>&#46;</span>com</a>” reports with status code of “OK” from the email verification <a class="reference internal" href="glossary.html#term-api"><span class="xref std std-term">API</span></a>. However, when you send an email to “<a class="reference external" href="mailto:this&#46;seems&#46;to&#46;verify&#37;&#52;&#48;hotmail&#46;com">this<span>&#46;</span>seems<span>&#46;</span>to<span>&#46;</span>verify<span>&#64;</span>hotmail<span>&#46;</span>com</a>”, the email bounces.
+Further inspection of the bounced email Non Delivery Report (NDR) headers show something like the following:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Delivered-To: my.sending.account@gmail.com
+Received: by 10.107.174.134 with SMTP id n6csp24867ioo;
+                Sat, 6 Jun 2014 03:57:29 -0800 (PST)
+X-Received: by 10.202.4.5 with SMTP id 5mr1335105oie.22.1417867048986;
+                Sat, 06 Jun 2014 03:57:28 -0800 (PST)
+Return-Path: &lt;&gt;
+Received: from SNT004-OMC2S34.hotmail.com (snt004-omc2s34.hotmail.com. [65.55.90.109])
+                by mx.google.com with ESMTPS id ws5si21632759obb.102.2014.12.06.03.57.28
+                for &lt;my.sending.account@gmail.com&gt;
+                (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+                Fri, 6 Jun 2014 03:57:28 -0800 (PST)
+Received-SPF: none (google.com: SNT004-OMC2S34.hotmail.com does not designate permitted sender hosts) client-ip=65.55.90.109;
+Authentication-Results: mx.google.com;
+           spf=none (google.com: SNT004-OMC2S34.hotmail.com does not designate permitted sender hosts) smtp.mail=
+Received: from SNT004-MC2F40.hotmail.com ([65.55.90.73]) by SNT004-OMC2S34.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.22751);
+         Fri, 6 Jun 2014 03:57:28 -0800
+From: postmaster@hotmail.com
+To: my.sending.account@gmail.com
+Date: Fri, 6 Jun 2014 03:57:28 -0800
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+        boundary=&quot;9B095B5ADSN=_01D010AABCE2C5CC0008C930SNT004?MC2F40.ho&quot;
+X-DSNContext: 335a7efd - 4481 - 00000001 - 80040546
+Message-ID: &lt;mjZ7zgTpi00029250@SNT004-MC2F40.hotmail.com&gt;
+Subject: Delivery Status Notification (Failure)
+Return-Path: &lt;&gt;
+X-OriginalArrivalTime: 06 Jun 2014 11:57:28.0142 (UTC) FILETIME=[CEAD2EE0:01D0114B]
+
+This is a MIME-formatted message.
+Portions of this message may be unreadable without a MIME-capable mail program.
+
+--9B095B5ADSN=_01D010AABCE2C5CC0008C930SNT004?MC2F40.ho
+Content-Type: text/plain; charset=unicode-1-1-utf-7
+
+This is an automatically generated Delivery Status Notification.
+
+Delivery to the following recipients failed.
+
+           this.seems.to.verify@hotmail.com
+</pre></div>
+</div>
+<p>The email header of the <a class="reference internal" href="glossary.html#term-ndr"><span class="xref std std-term">NDR</span></a> shows that Hotmail thinks the email address is invalid as far as sending to this address is concerned.
+However, Hotmail reports that the same email address is valid as far as the email verification activity performed by <a class="reference external" href="https://www.emailhippo.com">Email Hippo</a>.</p>
+<p>The discrepancy in verification results versus mail send is with the Hotmail infrastructure reporting one thing but doing the exact opposite.
+This behaviour occasionally (particularly from Hotmail) is seen in a small amount of cases and is attributable to internal Hotmail (or other mail services) system anomalies.</p>
+<p>The majority (&gt;99%) of email verification status versus mail send is consistent. However there are some edge cases caused by system faults in the mail service providers themselves.
+For these small number of cases, there is nothing that can be done at the email verification stage.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="glossary.html" class="btn btn-neutral float-right" title="Glossary" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="change-log.html" class="btn btn-neutral" title="Change log" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Email Hippo Ltd.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
