@@ -1,7 +1,7 @@
 :bitbucket_url: https://bitbucket.org/emailhippo/emh-rtapiv3-docs/src/master/docs/reliability.rst
 
 .. _Pingdom : http://api-stats.emailhippo.com
-.. _Terms of Service: http://www.emailhippo.com/terms-of-service
+.. _Terms of Service: https://www.emailhippo.com/compliance/terms-of-service/
 	
 Service reliability
 ===================
