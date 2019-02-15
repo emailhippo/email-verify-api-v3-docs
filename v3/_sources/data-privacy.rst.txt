@@ -1,9 +1,9 @@
 :bitbucket_url: https://bitbucket.org/emailhippo/emh-rtapiv3-docs/src/master/docs/data-privacy.rst
 
-.. _Privacy policy: https://www.emailhippo.com/privacy-policy/
-.. _Data processing terms: https://www.emailhippo.com/data-processing-terms/
-.. _Terms of service: https://www.emailhippo.com/terms-of-service/
-.. _Cookie policy: https://www.emailhippo.com/cookie-policy/
+.. _Privacy policy: https://www.emailhippo.com/compliance/privacy-policy/
+.. _Data processing terms: https://www.emailhippo.com/compliance/data-processing-terms/
+.. _Terms of service: https://www.emailhippo.com/compliance/terms-of-service/
+.. _Cookie policy: https://www.emailhippo.com/compliance/cookie-policy/
 
 Compliance
 ==========
