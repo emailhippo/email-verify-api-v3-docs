@@ -1,6 +1,6 @@
 :bitbucket_url: https://bitbucket.org/emailhippo/emh-rtapiv3-docs/src/master/docs/glossary.rst
 
-.. _Service Level Agreement: http://www.emailhippo.com/Home/Terms
+.. _Service Level Agreement: https://www.emailhippo.com/compliance/terms-of-service/
 
 Glossary
 ========
