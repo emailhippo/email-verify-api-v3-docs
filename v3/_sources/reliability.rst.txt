@@ -10,7 +10,7 @@ Reliability of your systems is important to you and your clients. You can be sur
 your business applications.
 
 By using the latest, distributed cloud based systems, we give deliver fast response times together with 
-enterprise grade uptime of more than 99.9%.
+enterprise grade uptime of more than 99.99%.
 
 About our infrastructure
 ------------------------
@@ -26,7 +26,7 @@ Network traffic is optimized for fast, reliable global delivery using Cloudflare
 
 Service level agreement
 -----------------------
-Our :term:`API` has a stated :term:`SLA` that ensures that we provide you with more than 99.9% uptime for our services.
+Our :term:`API` has a stated :term:`SLA` that ensures that we provide you with more than 99.99% uptime for our services.
 
 Read our terms of service for more information - `Terms of Service`_.
 
