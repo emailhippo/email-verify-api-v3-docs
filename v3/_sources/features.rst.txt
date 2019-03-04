@@ -8,11 +8,11 @@ Features
 
 Confidence in data security
 ---------------------------
-With ISO27001:2013 certification, robust technology and clearly defined policies and procedures, you can trust `Email Hippo`_ with your data.
+With ISO27001:2017 certification, robust technology and clearly defined policies and procedures, you can trust `Email Hippo`_ with your data.
 
 See :doc:`data-privacy` for more information.
 
-> 99.9% Service availability
+> 99.99% Service availability
 ----------------------------
 
 Fully load balanced and automatic fail-over systems dispersed across 
