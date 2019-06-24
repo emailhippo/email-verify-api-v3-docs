@@ -77,7 +77,7 @@ Spam trap detection
 
 Disposable email address detection
 ----------------------------------
-**Advanced disposable email address detection based on `Email Hippo`_'s multi-vector real-time analysis.**
+Advanced disposable email address detection based on `Email Hippo`_'s multi-vector real-time analysis.
 
 Features include:
 
