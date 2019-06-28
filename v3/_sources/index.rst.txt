@@ -39,7 +39,6 @@ Engage:
  * `Create a support ticket`_
  * `Twitter`_
  * `Facebook`_
- * `Google+`_
  * `LinkedIn`_
 
 Quick start
