@@ -1110,7 +1110,7 @@ For email verification and data enrichment performed to the 'More' level, Email 
 **About the Email Hippo Trust Score**
 Email Hippo created the Trust Score to provide an 'at a glance' determination of quality from the point of view of drilling deeper than just the email address itself.
 
-Email Hippo Trust Score is designed to answer a fundamental question posed from the perspective of a business owner, merchant, data broker or lean generation service:
+Email Hippo Trust Score is designed to answer a fundamental question posed from the perspective of a business owner, merchant, data broker or lead generation service:
 
 *How much can I trust the person associated with this email address?*
 
