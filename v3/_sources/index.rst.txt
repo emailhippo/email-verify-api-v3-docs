@@ -25,7 +25,7 @@ Email Hippo \'More\' documentation
 `Email Hippo`_ \'More\' :term:`API` services combine traditional email address verification with next generation data enrichment 
 services.
 	
-This document will show you how to get up and running with the the service. 
+This document will show you how to get up and running with the service. 
 You will have the basics of the :term:`API` up and running in 15 minutes or less.
 
 Use:
