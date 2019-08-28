@@ -1114,7 +1114,7 @@ Email Hippo Trust Score is designed to answer a fundamental question posed from 
 
 *How much can I trust the person associated with this email address?*
 
-The Trust Score takes dozens of metrics and signals into consideration when making this assesment and providing the final score.
+The Trust Score takes dozens of metrics and signals into consideration when making this assessment and providing the final score.
 
 +--------------------------+------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------+
 | Field Name               | Type                         | Description                                                           | Example Data                                        |
