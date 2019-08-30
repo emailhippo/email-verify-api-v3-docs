@@ -44,7 +44,7 @@ Open source common entities
 ---------------------------
 Since v3 (code named 'More'), all common entities are avaialable on GitHub. Email Hippo uses these entities internally and exposes same over all of our v3 endpoints.
 
-For a full definition of all of our entities and types, see the GitHub repository @ `entity defintitions`_.
+For a full definition of all of our entities and types, see the GitHub repository @ `entity definitions`_.
 
 Related information
 -------------------
