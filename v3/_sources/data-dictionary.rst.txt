@@ -34,15 +34,15 @@
 .. _blockList: https://github.com/emailhippo/email-verify-api-v3-client-wrapper-entities/blob/master/src/Components/EmailHippo.EmailVerify.Api.V3.Entities/V_3_0_0/SpamData/BlockList.cs
 .. _trustLevelType: https://github.com/emailhippo/email-verify-api-v3-client-wrapper-entities/blob/master/src/Components/EmailHippo.EmailVerify.Api.V3.Entities/V_3_0_0/Trust/TrustLevelType.cs
 
-Data dictionary for API v3
-==========================
+Data dictionary for MORE API v3
+===============================
 A response is a message consisting of a standard :term:`HTTP` header and body.
 The body of the message contains the detail of the message (e.g. the :term:`JSON` data with email verification detail).
 The header of the message contains general :term:`HTTP` information such as :term:`HTTP` status codes.
 
 Open source common entities
 ---------------------------
-Since v3 (code named 'More'), all common entities are avaialable on GitHub. Email Hippo uses these entities internally and exposes same over all of our v3 endpoints.
+Since v3 (code named 'MORE'), all common entities are avaialable on GitHub. Email Hippo uses these entities internally and exposes same over all of our v3 endpoints.
 
 For a full definition of all of our entities and types, see the GitHub repository @ `entity definitions`_.
 
