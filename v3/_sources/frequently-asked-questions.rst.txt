@@ -23,7 +23,7 @@ For a :term:`JSON` response, make a simple GET request to the endpoint. For exam
 
 ::
 	
-	https://api.hippoapi.com/v3/more/json/ABCD1234/john.doe@gmail.com
+	https://api.hippoapi.com/v3/MORE/json/ABCD1234/john.doe@gmail.com
 
 .. note:: Several response formats (other than :term:`JSON`) are available. For a detailed explanation of the responses available, see :doc:`integration-guide`.
 	
