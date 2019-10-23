@@ -8,7 +8,7 @@ There are three editions of endpoints.
 
 * Basic
 * Block lists
-* More
+* MORE
 
 Each varies in functionality and performance.
 
@@ -35,7 +35,7 @@ Performs basic level checks plus:
 
 **Performance:** Medium
 
-More
+MORE
 ----
 The most thorough analysis and data enrichment.
 
